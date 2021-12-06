@@ -1,0 +1,36 @@
+CID,CLSDROP,Parents Education,Annual Income,Sibling Ratio,Reason,Father Occupation,Mother Occupation,GENDER,Students,Dropout Rate
+0,6,below_hs,Below 15000,s3,Student disinterest,Daily Wage Worker,Homemaker,F,26,0.742857143
+1,1,below_hs,Below 15000,s2,Student disinterest,Handyman,Daily Wage Worker,M,8,0.228571429
+2,5,below_hs,Below 15000,s3,Family dispute,Small Business,Small Business,M,18,0.514285714
+3,4,above_hs,Above 15000,s2,Family dispute,Tailor,Homemaker,F,13,0.371428571
+4,1,below_hs,Below 15000,s4,Family dispute,Daily Wage Worker,Daily Wage Worker,M,11,0.314285714
+5,7,above_hs,Below 15000,s2,Child labor,Daily Wage Worker,Factory Worker,F,25,0.714285714
+6,5,above_hs,Above 15000,s4,Family dispute,Small Business,Homemaker,F,20,0.571428571
+7,4,above_hs,Below 15000,s2,Student disinterest,Driver,Daily Wage Worker,M,16,0.457142857
+8,2,above_hs,Above 15000,s4,Student disinterest,Driver,Homemaker,M,8,0.228571429
+9,4,above_hs,Below 15000,s2,issues with school,Daily Wage Worker,Daily Wage Worker,F,14,0.4
+10,5,below_hs,Below 15000,s1,Sibling care,Factory Worker,Daily Wage Worker,F,19,0.542857143
+11,2,below_hs,Below 15000,s3,Student disinterest,Daily Wage Worker,Small Business,M,7,0.2
+12,7,above_hs,Below 15000,s4,Child Labor,Small Business,Homemaker,M,20,0.571428571
+13,1,below_hs,Below 15000,s4,issues with school,Small Business,Daily Wage Worker,M,8,0.228571429
+14,7,above_hs,Above 15000,s2,Sibling care,Daily Wage Worker,Cleaning Service,F,22,0.628571429
+15,3,below_hs,Below 15000,s4,issues with school,Daily Wage Worker,Daily Wage Worker,M,11,0.314285714
+16,2,below_hs,Above 15000,s4,Student disinterest,Driver,Cleaning Service,M,13,0.371428571
+17,6,above_hs,Below 15000,s4,Girl Child Issues,Handyman,Daily Wage Worker,F,20,0.571428571
+18,7,below_hs,Below 15000,s2,Sibling care,Daily Wage Worker,Factory Worker,F,21,0.6
+19,4,below_hs,Above 15000,s2,Student disinterest,Driver,Cleaning Service,F,10,0.285714286
+20,5,below_hs,Below 15000,s4,Child labor,Small Business,Homemaker,M,14,0.4
+21,6,below_hs,Below 15000,s2,Child labor,Small Business,Homemaker,F,22,0.628571429
+22,4,above_hs,Below 15000,s4,Family dispute,Daily Wage Worker,Daily Wage Worker,F,15,0.428571429
+23,3,below_hs,Below 15000,s4,Family dispute,Daily Wage Worker,Daily Wage Worker,F,12,0.342857143
+24,1,below_hs,Below 15000,s3,issues with school,Daily Wage Worker,Daily Wage Worker,M,9,0.257142857
+25,7,below_hs,Above 15000,s4,issues with school,Driver,Tailor,M,19,0.542857143
+26,7,below_hs,Below 15000,s4,Child labor,Small Business,Homemaker,F,22,0.628571429
+27,1,above_hs,Below 15000,s4,Student disinterest,Factory Worker,Factory Worker,M,7,0.2
+28,7,below_hs,Below 15000,s2,Student disinterest,Daily Wage Worker,Daily Wage Worker,F,21,0.6
+29,3,below_hs,Below 15000,s2,Student disinterest,Handyman,Daily Wage Worker,F,11,0.314285714
+30,5,above_hs,Above 15000,s2,Sibling care,Small Business,Tailor,M,18,0.514285714
+31,7,below_hs,Below 15000,s4,Child labor,Daily Wage Worker,Factory Worker,F,24,0.685714286
+32,7,below_hs,Below 15000,s4,Student disinterest,Daily Wage Worker,Daily Wage Worker,F,22,0.628571429
+33,7,below_hs,Below 15000,s4,Child labor,Small Business,Daily Wage Worker,M,23,0.657142857
+34,7,below_hs,Above 15000,s4,Child labor,Small Business,Cleaning Service,M,19,0.542857143

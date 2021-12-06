@@ -1,0 +1,29 @@
+CID,CLSDROP,Annual Income,GENDER,Parents Education,Reason,Sibling Ratio,Students,Mother Occupation,Father Occupation,Dropout Rate
+0,1,Above 15000,B,below_hs,Family Dispute,s4,11,Homemaker,Tailor,0.02003643
+1,2,Below 15000,G,below_hs,Family Dispute,s3,13,Daily Wage Worker,Daily Wage Worker,0.023679417
+2,2,Below 15000,B,above_hs,Family Dispute,s3,14,Housemaid,Daily Wage Worker,0.025500911
+3,1,Below 15000,B,above_hs,Issues with school,s4,12,Daily Wage Worker,Factory Worker,0.021857923
+4,2,Above 15000,B,below_hs,Family Dispute,s3,13,Tailor,Auto Driver,0.023679417
+5,5,Above 15000,B,above_hs,Children Disinterest,s3,20,Housemaid,Fruit Vendor,0.036429872
+6,2,Above 15000,G,below_hs,Family Dispute,s3,15,Housemaid,Farmer,0.027322404
+7,5,Below 15000,B,below_hs,Family Dispute,s4,21,Daily Wage Worker,Daily Wage Worker,0.038251366
+8,7,Above 15000,B,above_hs,Children Disinterest,s3,29,Housemaid,Driver,0.052823315
+9,5,Below 15000,G,below_hs,Family Dispute,s3,20,Daily Wage Worker,Farmer,0.036429872
+10,6,Above 15000,G,below_hs,Family Dispute,s1,28,Housemaid,Farmer,0.051001821
+11,7,Below 15000,B,below_hs,Family Dispute,s4,38,Homemaker,Daily Wage Worker,0.069216758
+12,3,Above 15000,G,below_hs,Children Disinterest,s2,19,BBMP worker,Daily Wage Worker,0.034608379
+13,3,Below 15000,G,below_hs,Family Dispute,s3,19,Farmer,Farmer,0.034608379
+14,6,Below 15000,G,above_hs,Girl Child Issues,s2,27,Homemaker,Daily Wage Worker,0.049180328
+15,6,Below 15000,B,below_hs,Children Disinterest,s3,28,Daily Wage Worker,Daily Wage Worker,0.051001821
+16,5,Below 15000,G,above_hs,Family Dispute,s1,16,Farmer,Farmer,0.029143898
+17,4,Below 15000,B,above_hs,Issues with school,s4,12,Homemaker,Farmer,0.021857923
+18,4,Above 15000,G,below_hs,Child Labour,s2,15,Housemaid,Driver,0.027322404
+19,1,Below 15000,G,below_hs,Issues with school,s1,8,Garments Worker,Mechanic,0.014571949
+20,3,Above 15000,B,above_hs,Family Dispute,s3,17,Tailor,Auto Driver,0.030965392
+21,4,Above 15000,B,above_hs,Children Disinterest,s4,15,Housemaid,Driver,0.027322404
+22,4,Below 15000,G,below_hs,Girl Child Issues,s2,15,Daily Wage Worker,Mechanic,0.027322404
+23,6,Above 15000,B,below_hs,Family Dispute,s1,28,Housemaid,Tailor,0.051001821
+24,1,Above 15000,G,above_hs,Family Dispute,s3,8,Homemaker,Auto Driver,0.014571949
+25,3,Below 15000,B,below_hs,Child Labour,s2,11,Farmer,Farmer,0.02003643
+26,7,Below 15000,G,above_hs,Family Dispute,s3,36,Daily Wage Worker,Daily Wage Worker,0.06557377
+27,7,Above 15000,G,below_hs,Child Labour,s2,41,Housemaid,Driver,0.074681239
