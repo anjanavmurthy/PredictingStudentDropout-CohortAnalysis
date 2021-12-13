@@ -385,7 +385,7 @@ def get_stats():
         fig = go.Figure(data=data)
         fig.write_image("bar_risk.png")
         dest = shutil.move(str(source)+str('bar_risk.png'), destination)
-        return render_template("statistics_rur.html")
+        return render_template("statistics_class.html")
 @app.route('/get_cm', methods=["POST"])
 def get_cm():
     return render_template("counter_measures.html")
