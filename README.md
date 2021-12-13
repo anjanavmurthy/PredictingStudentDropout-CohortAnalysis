@@ -3,9 +3,11 @@ The basic idea of the project is to identify the socio economic factors due to w
 
 
 -Command to execute the program when in directory of files and folders,
+
 	python app.py
 
 -Requirements:
+
     Python
     flask
     pandas
