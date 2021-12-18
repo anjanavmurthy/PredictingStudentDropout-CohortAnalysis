@@ -1,0 +1,23 @@
+<html>
+<!--Graphs Page-->
+<center>
+<head>
+    <h2 style="font-family: 'Trebuchet MS', sans-serif;">Student Dropout Prediction</h2>
+</head>
+<body>
+<select id="dlist" onChange="swapImage()" style="font-family: 'Trebuchet MS', sans-serif;">
+<option value="{{url_for('static', filename='pie_reason.png')}}">Very High Risk Reason Distribution</option>
+<option value="{{url_for('static', filename='bar_risk.png')}}">Risk Distribution</option>
+<option value="{{url_for('static', filename='pie_gender.png')}}"> Very High Risk Gender Distribution</option>
+</select>
+<img id="imageToSwap" src="{{url_for('static', filename='pie_reason.png')}}" />
+<script type="text/javascript">
+function swapImage(){
+	var image = document.getElementById("imageToSwap");
+	var dropd = document.getElementById("dlist");
+	image.src = dropd.value;	
+};
+</script>
+</body>
+</center>
+</html>

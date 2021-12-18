@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<style>
+body {
+  font-family: 'Verdana', sans-serif;
+}
+table {
+  background-color: white;
+  width: 300px;
+  border: 4px solid black;
+  margin: 20px;
+}
+#button {
+  background-color:#00BFFF;
+  border: none;
+  font-family: 'Verdana', sans-serif;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  height: 70px;
+  width: 150px;
+  cursor: pointer;
+}
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-child {
+    -webkit-box-flex: 1 1 auto;
+    -moz-box-flex:  1 1 auto;
+    -webkit-flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    flex:  1 1 auto;
+}
+button:hover {background-color:lightgrey;}
+.search {
+  display: none;
+}
+</style>
+</head>
+<body style="width:800px; margin:0 auto;">
+  <center><h2>Student Dropout Prediction</h2>
+    <div class="flex" style="position:relative;left:30%;">
+  <form action="{{ url_for('get_stats')}}" method="post">
+  <button id="button" class="flex-child">Get Statistics</button>
+  </form>
+  <form action="{{ url_for('get_cm')}}" method="post">
+  <button id="button" class="flex-child">Counter Measures</button>
+  </form>
+  </div>
+  <br>
+  <form method="POST" action="/filter">
+  <select id="Filter" name="attributes" onChange="changecat(this.value);">
+    <option value="All">All</option>
+    <option value="SID">SID</option>
+    <option value="Gender">Gender</option>
+    <option value="Risk">Risk</option>
+    <option value="Class">Class</option>
+    <option value="Reason">Reason</option>
+  </select>
+  <select id="attribute-cat" name="attribute-cat">
+    <option selected disabled>Select</option>
+  </select>
+  <input type="text" name="SID_val" placeholder="Enter SID..." id="search1" style="display: none;">
+  <button type="submit" class="btn btn-default">Filter</button>
+  </form>
+<br>
+  <table>
+    <tr>
+    {% for col in column_names %}
+    <th>{{col}}</th>
+    {% endfor %}
+    </tr>
+    {% for row in row_data %}
+    <tr>
+        {% for col, row_ in zip(column_names, row) %}
+        {% if "High Risk" in row %}
+        <td style="background-color:red;color: black;">
+                {{ row_ }}
+        </td>
+        {% elif "Medium Risk" in row %}
+        <td style="background-color: yellow;color: black;">
+                {{ row_ }}
+        </td>
+        {% else %}
+        <td style="background-color:#32CD32; color: black;">{{row_}}</td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</center>
+<script>
+  var mealsByCategory = {
+   SID: [" "],
+   Gender:['Female','Male'],
+   Risk: ['High Risk','Medium Risk','Low Risk'],
+   Class: [1,2,3,4,5,6,7],
+   Reason: ['Family Dispute','Issues with School','Girl Child Issues','Student Disinterest','Child Labour']
+ }
+ 
+     function changecat(value) {
+         x=document.getElementById("attribute-cat")
+         y=document.getElementById("search1")
+         y.style.display="none";
+         x.style.display="inline-block";
+         while (x.options.length > 0) {
+             x.remove(0);
+         }
+         if (value.length == 0) document.getElementById("attribute-cat").innerHTML = "<option></option>";
+         else {
+             for (categoryId in mealsByCategory[value]) 
+             {
+ 
+                 //catOptions += "<option>" + mealsByCategory[value][categoryId] + "</option>";
+                 console.log(value)
+                 // console.log(mealsByCategory[value])
+                if(value == "SID")
+                {
+                  y.style.display="inline-block";
+                  x.style.display="none";
+                }
+                 x.options[x.options.length] = new Option(mealsByCategory[value][categoryId], mealsByCategory[value][categoryId]);
+               }
+               //document.getElementById("attribute-cat").innerHTML = catOptions;
+             }
+           }
+ </script>
+</body>
+</html>
