@@ -1,4 +1,4 @@
-# PredictingStudentDropout-CohortAnalysis
+# Predicting Student Dropout Cohort Analysis
 The basic idea of the project is to identify the socio economic factors due to which students of government schools decide to discontinue their education and predict the students who are likely to dropout. By Identifying the students that are likely to dropout, suitable actions can be taken to retain them and continue their education.
 
 
